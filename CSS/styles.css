@@ -1,7 +1,7 @@
 /********TAG SELECTORS********/
 body {
   margin: 0;
-  background-color: #fff6e3;
+  background-color: #f1f0cf;
   text-align: center;
   font-family: 'Merriweather', serif;
   font-size: 100%;
@@ -72,6 +72,7 @@ a:hover {
   border-color: #ace4cb;
   height: 8em;
   width: auto;
+  margin-bottom: 20px;
 }
 
 .circular:hover {
@@ -156,6 +157,7 @@ a:hover {
 .bottom-container {
   background-color: #ace4cb;
   padding: 50px 0 20px;
+  clear: both;
 }
 
 .copyright a {
