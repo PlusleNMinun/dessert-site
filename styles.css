@@ -1,47 +1,47 @@
-/********TAG SELECTORS********/
 body {
   margin: 0;
   background-color: #f1f0cf;
   text-align: center;
-  font-family: 'Merriweather', serif;
-  font-size: 100%;
+  font-family: 'Montserrat', sans-serif;
   color: #40514E;
 }
 
-hr {
-  border-style: none;
-  border-top-style: dotted;
-  border-color: #acbfea;
-  border-width: 15px;
-  width: 15%;
-  margin: 80px auto 80px auto;
+.navbar {
+  background-color: #f07bbb;
+  color: #EAF6F6;
 }
 
-hr:hover {
-  border-color: #ff96bc;
+.navbar-brand img {
+  margin-right: 5px;
+}
+
+.top-container {
+  background-image: url(images/cakes-chocolate.jpg);
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover
+}
+
+.text-top-container {
+  position: relative;
+  top: 35%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
 }
 
 h1 {
   color: #f07bbb;
   margin: 0 auto 0 auto;
-  padding-top: 100px;
   font-family: 'Sacramento', cursive;
-  font-size: 5.625rem;
+  font-size: 6rem;
 }
 
 h2 {
   color: #ff96bc;
   font-family: 'Montserrat', sans-serif;
-  font-size: 32px;
-}
-
-h3 {
-  color: #ff96bc;
-  font-family: 'Montserrat', sans-serif;
-}
-
-p {
-  line-height: 2;
+  font-size: 2rem;
 }
 
 a {
@@ -54,125 +54,4 @@ a {
 
 a:hover {
   color: #EAF6F6;
-}
-
-/********CLASS SELECTORS********/
-.loving {
-  color: #f07bbb;
-  font-weight: 900;
-  letter-spacing: 2px;
-  font-family: 'Sacramento', cursive;
-  font-size: 2.5rem;
-}
-
-.bordercupcake {
-  border: solid;
-  border-radius: 100%;
-  border-width: 10px;
-  border-color: #ace4cb;
-  height: 8em;
-  width: auto;
-  margin-bottom: 20px;
-}
-
-.circular:hover {
-  border: solid;
-  border-radius: 100%;
-  border-width: 10px;
-  border-color: #ff96bc;
-}
-
-.openingLine {
-  font-style: italic;
-  margin-bottom: 50px;
-  font-size: 1.5rem;
-  padding-bottom: 100px;
-}
-
-.top-container {
-  background-color: #ace4cb;
-}
-
-.about-row {
-  width: 50%;
-  margin: 50px auto 50px auto;
-  text-align: left;
-}
-
-.bluecupcake, .chocolatecupcake {
-  height: 8em;
-  width: auto;
-  float: left;
-  margin-right: 30px;
-}
-
-.pinkcupcake {
-  height: 8em;
-  width: auto;
-  float: right;
-  margin-left: 30px;
-}
-
-.profile {
-  line-height: 2;
-}
-
-.contact-message {
-  width: 40%;
-  margin: 40px auto 60px;
-}
-
-.middle-container {
-  margin: 20px auto 80px auto;
-}
-
-.btn {
-  background: #e8faf2;
-  background-image: -webkit-linear-gradient(top, #e8faf2, #ace4cb);
-  background-image: -moz-linear-gradient(top, #e8faf2, #ace4cb);
-  background-image: -ms-linear-gradient(top, #e8faf2, #ace4cb);
-  background-image: -o-linear-gradient(top, #e8faf2, #ace4cb);
-  background-image: linear-gradient(to bottom, #e8faf2, #ace4cb);
-  -webkit-border-radius: 8;
-  -moz-border-radius: 8;
-  border-radius: 8px;
-  font-family: 'Montserrat', sans-serif;
-  color: #f07bbb;
-  font-size: 20px;
-  padding: 10px 20px 10px 20px;
-  margin: 0 auto 30px auto;
-  text-decoration: none;
-}
-
-.btn:hover {
-  background: #d6e3ff;
-  background-image: -webkit-linear-gradient(top, #d6e3ff, #acbfea);
-  background-image: -moz-linear-gradient(top, #d6e3ff, #acbfea);
-  background-image: -ms-linear-gradient(top, #d6e3ff, #acbfea);
-  background-image: -o-linear-gradient(top, #d6e3ff, #acbfea);
-  background-image: linear-gradient(to bottom, #d6e3ff, #acbfea);
-  text-decoration: none;
-}
-
-.bottom-container {
-  background-color: #ace4cb;
-  padding: 50px 0 20px;
-  clear: both;
-}
-
-.copyright a {
-  color: #EAF6F6;
-  font-size: 0.80rem;
-  padding: 20px 0;
-}
-
-.copyright {
-  color: #EAF6F6;
-  font-size: 0.80rem;
-  padding: 20px 0;
-}
-
-.navbar {
-  background-color: #f07bbb;
-  color:
 }
