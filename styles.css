@@ -1,7 +1,7 @@
 /* Navbar & Introduction Section */
 body {
   margin: 0;
-  background-color: #f3f1c3;
+  background-image: linear-gradient(to bottom right, #e7f1eb, #f1f0cf);
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   color: #40514E;
@@ -62,18 +62,18 @@ a:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  background-color: #fbb3cd;
+  background-image: linear-gradient(to bottom right, #fbb3cd, #e7f1eb);
 }
 
 .product {
-    align-items: center;
-    text-align: center;
-    width: calc(90% / 3);
-    max-width: 300px;
-    margin: 10px;
-    border: 1px solid #000;
-    border-radius: 3px;
-    background-color: #f1f0cf;
+  align-items: center;
+  text-align: center;
+  width: calc(90% / 3);
+  max-width: 300px;
+  margin: 10px;
+  border: 2px solid #40514E;
+  border-radius: 3px;
+  background-color: #e7f1eb;
 }
 
 .shop-images {
@@ -151,6 +151,10 @@ h3 {
   clear: both;
 }
 
+.footer-link {
+  color: #f362b1;
+}
+
 .copyright a {
   font-size: 0.80rem;
   padding: 20px 0;
@@ -165,7 +169,7 @@ h3 {
 .candy-border {
   background-image: url(images/sprinkles.jpg);
   height: 60px;
-  opacity: 0.8;
+  opacity: 0.75;
   background-position: center;
   background-repeat: repeat;
   background-size: cover;
