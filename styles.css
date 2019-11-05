@@ -1,6 +1,7 @@
+/* Navbar & Introduction Section */
 body {
   margin: 0;
-  background-color: #f1f0cf;
+  background-color: #f3f1c3;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   color: #40514E;
@@ -20,7 +21,7 @@ body {
   height: 600px;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover
+  background-size: cover;
 }
 
 .text-top-container {
@@ -54,4 +55,118 @@ a {
 
 a:hover {
   color: #EAF6F6;
+}
+
+/* First middle grid (Shopping Category) */
+.first-middle-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #fbb3cd;
+}
+
+.product {
+    align-items: center;
+    text-align: center;
+    width: calc(90% / 3);
+    max-width: 300px;
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 3px;
+    background-color: #f1f0cf;
+}
+
+.shop-images {
+  width: 100%;
+}
+
+h4 {
+  font-size: 2rem;
+  margin: 10px auto;
+}
+
+.prices {
+  list-style-type: none;
+  padding: 0;
+  line-height: 1.75rem;
+}
+
+.middle-grid {
+  display: flex;
+  width: 80%;
+  margin: 8% auto 8% auto;
+}
+
+.first-middle-flex {
+  justify-content: center;
+}
+
+/* Second middle grid (Youtube and Email Form) */
+h3 {
+  color: #f07bbb;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.coupon {
+  display: inline-block;
+  margin: auto;
+  padding: 15px;
+  background-color: #ace4cb;
+  width: 90%;
+  border: 3px solid #f07bbb;
+  border-radius: 5px;
+}
+
+.btn {
+  border: none;
+  padding: 4px;
+  background-color: #f07bbb;
+}
+
+.border-cupcake {
+  border: solid;
+  border-radius: 100%;
+  border-width: 10px;
+  border-color: #ff96bc;
+  height: 8em;
+  width: auto;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.circular:hover {
+  border: solid;
+  border-radius: 100%;
+  border-width: 10px;
+  border-color: #ace4cb;
+}
+
+/* Bottom Container - Contact Section */
+.bottom-container {
+  background-color: #ace4cb;
+  padding: 50px 0 20px;
+  clear: both;
+}
+
+.copyright a {
+  font-size: 0.80rem;
+  padding: 20px 0;
+}
+
+.copyright {
+  font-size: 0.80rem;
+  padding: 20px 0;
+}
+
+/* GENERAL */
+.candy-border {
+  background-image: url(images/sprinkles.jpg);
+  height: 60px;
+  opacity: 0.8;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
 }
