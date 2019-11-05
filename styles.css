@@ -59,10 +59,13 @@ a:hover {
 
 /* First middle grid (Shopping Category) */
 .first-middle-container {
+  background-image: linear-gradient(to bottom right, #fbb3cd, #e7f1eb);
+}
+
+.first-middle-flex {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  background-image: linear-gradient(to bottom right, #fbb3cd, #e7f1eb);
 }
 
 .product {
@@ -74,6 +77,20 @@ a:hover {
   border: 2px solid #40514E;
   border-radius: 3px;
   background-color: #e7f1eb;
+}
+
+@media only screen and (max-width: 600px) {
+  .product {
+    width: 100%;
+    max-width: 350px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .product {
+    width: 100%;
+    max-width: 300px;
+  }
 }
 
 .shop-images {
@@ -94,11 +111,8 @@ h4 {
 .middle-grid {
   display: flex;
   width: 80%;
-  margin: 8% auto 8% auto;
-}
-
-.first-middle-flex {
-  justify-content: center;
+  margin: 0 auto 0 auto;
+  padding: 8% 0 8% 0;
 }
 
 /* Second middle grid (Youtube and Email Form) */
@@ -110,6 +124,20 @@ h3 {
   text-align: center;
 }
 
+.second-middle-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.coupon-section {
+  width: 50%;
+}
+
+#video {
+  width: 90%;
+}
+
 .coupon {
   display: inline-block;
   margin: auto;
@@ -118,6 +146,22 @@ h3 {
   width: 90%;
   border: 3px solid #f07bbb;
   border-radius: 5px;
+}
+
+@media only screen and (max-width: 700px) {
+  .circular {
+    margin: 8%;
+  }
+
+  .coupon-section {
+    width: 100%;
+  }
+
+  .coupon {
+    width: 100%;
+    max-width: 500px;
+    margin: 5% auto 5% auto;
+  }
 }
 
 .btn {
